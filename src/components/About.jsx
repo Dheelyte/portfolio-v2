@@ -8,23 +8,31 @@ export default function About () {
         <div ref={containerRef} className="slide about" id="about">
             <h1>About me</h1>
             <p>
-                In 2018, I started my tech journey programming with
-                Scratch and I haven't looked back ever since.
-                Fast forward to a year later, I started learning Python. Python really piqued my
-                interest in programming and I found my self building simple 
-                projects using Python. A year later, I learnt JavaScript.
-                I also enrolled in a 12 months software engineering programme organized by the renowned
-                ALX Africa and this programme deepened my knowledge in core Software Engineering
-                principles and also equipped me with problem solving skills.
+            My tech journey started in 2018 with Scratch programming language, and honestly? 
+            I've been hooked ever since. Few months later, I started learning
+            Python. I went from dragging 
+            blocks of code to writing real code and building mini-projects that brought 
+            my ideas to life.
             </p>
             <p>
-                Over the years, I have had the opportunity to work with amazing people on
-                diverse projects, work at Cowrywise Financial Technology Ltd as a Backend Engineer, and also teach programming at various bootcamps including a
-                bootcamp organized by Microsoft Learners Student Ambassadors (MLSA).
+            Fast-forward to a year later, I enrolled in the highly respected ALX Africa 12-month Software Engineering 
+            program. That experience didn't just sharpen my technical skills, it turned 
+            me into a problem-solver. I gained a solid foundation in core 
+            software engineering principles and got to tackle real-world challenges.
             </p>
             <p>
-                When I'm not writing code, I'm usually either watching a movie, writing <a className="inline-link" href='https://delighto.medium.com' target="_blank" rel="noreferrer">tech articles</a> or taking
-                pictures of beautiful skies. I speak English, French and Yoruba.
+            Since then, I've had the privilege of collaborating with brilliant minds 
+            on diverse projects, working at Cowrywise Financial Technology Ltd as a 
+            Backend Engineer, building a software currently used by 700K+ uers, and 
+            sharing what I've learned by teaching 
+            programming at various bootcamps, including one hosted by the Microsoft 
+            Learn Student Ambassadors (MLSA).
+            </p>
+            <p>
+            When I'm not building stuff, you'll probably find me taking photos 
+            of beautiful skies, watching movies, or writing tech articles to help 
+            others in their tech journey. Oh, and I speak English, French, and 
+            Yoruba, just in case we ever need to switch it up!
             </p>
         </div>
     )

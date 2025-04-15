@@ -17,7 +17,7 @@ export default function Skills () {
 
     return (
         <div ref={containerRef} className="slide skills" id="skills">
-            <h1>Skills & Technologies</h1>
+            <h1>My Skills & Technologies</h1>
             <div className="container">
                 <div className="skill">
                     <img src={python} alt="" />

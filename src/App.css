@@ -21,7 +21,7 @@ body {
 
 nav {
   position: fixed;
-  width: 250px;
+  width: 300px;
   height: 100vh;
   top: 0;
   right: 0;
@@ -156,14 +156,15 @@ nav .link:hover {
 }
 .hero h1 {
   font-size: 60px;
-  margin: 0 0 20px;
+  margin: 0;
   color: #fff;
   letter-spacing: 1px;
 }
-.typing span {
+.typing {
   font-size: 25px;
   font-family: monospace;
   color: orange;
+  margin-top: 20px;
 }
 .cta {
   display: inline-block;
@@ -352,9 +353,10 @@ nav .link:hover {
   color: orange;
 }
 .project .project-meta .link {
-  display: inline-block;
+  display: inline-flex;
   text-decoration: none;
   padding: 10px 13px 5px;
+  gap: 5px;
   color: #000;
   background-color: #e4e1e1;
   margin: 5px 5px 0;
@@ -517,10 +519,16 @@ footer {
   .menu-bar {
     display: block;
   }
-  .hero .name h1 {
-    font-size: 40px;
+  .hero .name {
+    justify-content: left;
+    flex-direction: column;
+    gap: 0;
   }
-  
+  .hero .container {
+    padding: 30px;
+    text-align: left;
+    justify-content: left;
+  }
   .projects .project {
     flex-direction: column;
     padding: 20px;
@@ -541,7 +549,7 @@ footer {
 }
 @media screen and (max-width: 455px) {
   .hero .name h1 {
-    font-size: 32px;
+    font-size: 40px;
   }
   .typing span {
     font-size: 22px;

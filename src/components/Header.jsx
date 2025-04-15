@@ -30,10 +30,10 @@ export default function Header () {
                         <span onClick={()=>{scroll('about')}}>About</span>
                     </li>
                     <li>
-                        <span onClick={()=>{scroll('resume')}} className="active">Resume</span>
+                        <span onClick={()=>{scroll('projects')}} className="active">Projects</span>
                     </li>
                     <li>
-                        <span onClick={()=>{scroll('projects')}}>Projects</span>
+                        <span onClick={()=>{scroll('resume')}}>Resume</span>
                     </li>
                     <li>
                         <span onClick={()=>{scroll('blog')}}>Blog</span>
@@ -50,8 +50,8 @@ export default function Header () {
                 <ul>
                     <span className='link' onClick={()=>{scroll('contact')}}>Contact</span>
                     <span className='link' onClick={()=>{scroll('about')}} >About</span>
-                    <span className='link hover' onClick={()=>{scroll('resume')}}>Resume</span>
-                    <span className='link' onClick={()=>{scroll('projects')}}>Projects</span>
+                    <span className='link hover' onClick={()=>{scroll('projects')}}>Projects</span>
+                    <span className='link' onClick={()=>{scroll('resume')}}>Resume</span>
                     <span className='link' onClick={()=>{scroll('blog')}}>Blog</span>
                 </ul>
             </nav>}

@@ -34,13 +34,15 @@ export default function Projects () {
                     </p>
                     <a className="link" href="https://reelchat.me/" target="_blank" rel="noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>    
+                        <span>View</span>
                     </a>
                     <a className="link" href="https://github.com/Dheelyte/RealChat" target="_blank" rel="noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        <span>Github</span>
                     </a>
                 </div>
             </div>
-            <div className="project row-reverse">
+            <div className="project">
                 <img src={radarlens} alt="title" />
                 <div className="project-meta">
                     <h1 className="project-meta-title">Radarlens</h1>
@@ -56,11 +58,9 @@ export default function Projects () {
                         Radarlens helps small businesses gain visibility by showcasing their businesses
                         and products to people closest to them.
                     </p>
-                    <a className="link" href="https://radarlens.onrender.com/" target="_blank" rel="noreferrer">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>    
-                    </a>
                     <a className="link" href="https://github.com/Dheelyte/radarlens" target="_blank" rel="noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        <span>Github</span>
                     </a>
                 </div>
             </div>
@@ -80,13 +80,60 @@ export default function Projects () {
                     </p>
                     <a className="link" href="https://tourify-nbzf.onrender.com/" target="_blank" rel="noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>    
+                        <span>View</span>
                     </a>
                     <a className="link" href="https://github.com/Dheelyte/tourify" target="_blank" rel="noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        <span>Github</span>
                     </a>
                 </div>
             </div>
-            <div className="project row-reverse">
+            <div className="project">
+                <img src={qrgenx} alt="title" />
+                <div className="project-meta">
+                    <h1 className="project-meta-title">QR GenX</h1>
+                    <div className="stack">
+                        <span>JavaScript</span>
+                        <span>ReactJS</span>
+                    </div>
+                    <p className="project-meta-description">
+                        QR GenX is a QR code generator. You can use this tool to create QR Codes to open a website, view a PDF file, register for an event, watch Youtube videos, and much more.
+                    </p>
+                    <a className="link" href="https://qrcode-genx.onrender.com/" target="_blank" rel="noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>    
+                        <span>View</span>
+                    </a>
+                    <a className="link" href="https://github.com/Dheelyte/qr-code-generator" target="_blank" rel="noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        <span>Github</span>
+                    </a>
+                </div>
+            </div>
+            <div className="project">
+                <img src={linkify} alt="title" />
+                <div className="project-meta">
+                    <h1 className="project-meta-title">Linkify</h1>
+                    <div className="stack">
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>JavaScript</span>
+                        <span>ReactJS</span>
+                    </div>
+                    <p className="project-meta-description">
+                        Generate customized short links for free with Linkify - a simple, user-friendly URL shortening web application.
+                        Experience the convenience of shorter URLs, perfect for social media, email, and more.
+                    </p>
+                    <a className="link" href="https://my-linkify.onrender.com/" target="_blank" rel="noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>    
+                        <span>View</span>
+                    </a>
+                    <a className="link" href="https://github.com/Dheelyte/linkify-url-shortener" target="_blank" rel="noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        <span>Github</span>
+                    </a>
+                </div>
+            </div>
+            <div className="project">
                 <img src={hacktoberfest} alt="title" />
                 <div className="project-meta">
                     <h1 className="project-meta-title">Open Source Leaderboard</h1>
@@ -101,50 +148,11 @@ export default function Projects () {
                     </p>
                     <a className="link" href="https://hacktoberfest.onrender.com/" target="_blank" rel="noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>    
+                        <span>View</span>
                     </a>
                     <a className="link" href="https://github.com/Dheelyte/MLSA-Leaderboard" target="_blank" rel="noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                    </a>
-                </div>
-            </div>
-            <div className="project">
-                <img src={linkify} alt="title" />
-                <div className="project-meta">
-                    <h1 className="project-meta-title">Linkify</h1>
-                    <div className="stack">
-                        <span>Python</span>
-                        <span>Django</span>
-                        <span>JavaScript</span>
-                    </div>
-                    <p className="project-meta-description">
-                        Generate customized short links for free with Linkify - a simple, user-friendly URL shortening web application.
-                        Experience the convenience of shorter URLs, perfect for social media, email, and more.
-                    </p>
-                    <a className="link" href="https://linkify-tai1.onrender.com/" target="_blank" rel="noreferrer">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>    
-                    </a>
-                    <a className="link" href="https://github.com/Dheelyte/linkify-url-shortener" target="_blank" rel="noreferrer">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                    </a>
-                </div>
-            </div>
-            <div className="project row-reverse">
-                <img src={qrgenx} alt="title" />
-                <div className="project-meta">
-                    <h1 className="project-meta-title">QR GenX</h1>
-                    <div className="stack">
-                        <span>Python</span>
-                        <span>Django</span>
-                        <span>JavaScript</span>
-                    </div>
-                    <p className="project-meta-description">
-                        QR GenX is a QR code generator. You can use this tool to create QR Codes to open a website, view a PDF file, register for an event, watch Youtube videos, and much more.
-                    </p>
-                    <a className="link" href="https://qr-genx.onrender.com/" target="_blank" rel="noreferrer">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>    
-                    </a>
-                    <a className="link" href="https://github.com/Dheelyte/qr-code-generator" target="_blank" rel="noreferrer">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        <span>Github</span>
                     </a>
                 </div>
             </div>
@@ -163,14 +171,12 @@ export default function Projects () {
                         This project also features an interactive console I made for interacting with the application.
                     </p>
                     <a className="link" href="https://github.com/Dheelyte/AirBnB_clone_v3" target="_blank" rel="noreferrer">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>    
-                    </a>
-                    <a className="link" href="https://github.com/Dheelyte/AirBnB_clone_v3" target="_blank" rel="noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        <span>Github</span>
                     </a>
                 </div>
             </div>
-            <div className="project row-reverse">
+            <div className="project">
                 <img src={drone} alt="title" />
                 <div className="project-meta">
                     <h1 className="project-meta-title">Drone Control App</h1>
@@ -185,6 +191,7 @@ export default function Projects () {
                     </p>
                     <a className="link" href="https://github.com/Dheelyte/drone-control-app" target="_blank" rel="noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        <span>Github</span>
                     </a>
                 </div>
             </div>
