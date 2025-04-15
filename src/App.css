@@ -571,17 +571,11 @@ footer {
     width: 130px;
     height: 130px;
   }
-  .hero .name h1 {
-    font-size: 25px;
-  }
   .typing span {
     font-size: 20px;
   }
 }
 @media screen and (max-width: 300px) {
-  .hero .name h1 {
-    font-size: 20px;
-  }
   .typing span {
     font-size: 15px;
   }
