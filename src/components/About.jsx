@@ -15,7 +15,7 @@ export default function About () {
             my ideas to life.
             </p>
             <p>
-            Fast-forward to a year later, I enrolled in the highly respected ALX Africa 12-month Software Engineering 
+            Fast-forward to 2022, I enrolled in the highly respected ALX Africa 12-month Software Engineering 
             program. That experience didn't just sharpen my technical skills, it turned 
             me into a problem-solver. I gained a solid foundation in core 
             software engineering principles and got to tackle real-world challenges.
@@ -23,7 +23,7 @@ export default function About () {
             <p>
             Since then, I've had the privilege of collaborating with brilliant minds 
             on diverse projects, working at Cowrywise Financial Technology Ltd as a 
-            Backend Engineer, building a software currently used by 700K+ uers, and 
+            Backend Engineer, building a software currently used by 700K+ users, and 
             sharing what I've learned by teaching 
             programming at various bootcamps, including one hosted by the Microsoft 
             Learn Student Ambassadors (MLSA).
