@@ -21,8 +21,8 @@ export default function About () {
             software engineering principles and got to tackle real-world challenges.
             </p>
             <p>
-            Since then, I've had the privilege of collaborating with brilliant minds 
-            on diverse projects, working at Cowrywise Financial Technology Ltd as a 
+            Since then, I've had the privilege of collaborating with brilliant minds across the globe 
+            on various projects, working at Cowrywise Financial Technology Ltd as a 
             Backend Engineer, building a software currently used by 700K+ users, and 
             sharing what I've learned by teaching 
             programming at various bootcamps, including one hosted by the Microsoft 
